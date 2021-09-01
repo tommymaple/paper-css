@@ -1,0 +1,586 @@
+
+/** A PAPER SIZES                **/
+body.A0                                          .sheet{ width:  841mm;   height:  1188mm   }
+body.A0.landscape                                .sheet{ width: 1189mm;   height:   840mm   }
+body.A1                                          .sheet{ width:  594mm;   height:   840mm   }
+body.A1.landscape                                .sheet{ width:  841mm;   height:   593mm   }
+body.A2                                          .sheet{ width:  420mm;   height:   593mm   }
+body.A2.landscape                                .sheet{ width:  594mm;   height:   419mm   }
+body.A3                                          .sheet{ width:  297mm;   height:   419mm   }
+body.A3.landscape                                .sheet{ width:  420mm;   height:   296mm   }
+body.A4                                          .sheet{ width:  210mm;   height:   296mm   }
+body.A4.landscape                                .sheet{ width:  297mm;   height:   209mm   }
+body.A5                                          .sheet{ width:  148mm;   height:   209mm   }
+body.A5.landscape                                .sheet{ width:  210mm;   height:   147mm   }
+body.A6                                          .sheet{ width:  105mm;   height:   147mm   }
+body.A6.landscape                                .sheet{ width:  148mm;   height:   104mm   }
+body.A7                                          .sheet{ width:   74mm;   height:   104mm   }
+body.A7.landscape                                .sheet{ width:  105mm;   height:    73mm   }
+body.A8                                          .sheet{ width:   52mm;   height:    73mm   }
+body.A8.landscape                                .sheet{ width:   74mm;   height:    51mm   }
+body.A9                                          .sheet{ width:   37mm;   height:    51mm   }
+body.A9.landscape                                .sheet{ width:   52mm;   height:    36mm   }
+body.A10                                         .sheet{ width:   26mm;   height:    36mm   }
+body.A10.landscape                               .sheet{ width:   37mm;   height:    25mm   }
+body.A11                                         .sheet{ width:   18mm;   height:    25mm   }
+body.A11.landscape                               .sheet{ width:   26mm;   height:    17mm   }
+body.A12                                         .sheet{ width:   13mm;   height:    17mm   }
+body.A12.landscape                               .sheet{ width:   18mm;   height:    12mm   }
+body.A13                                         .sheet{ width:    9mm;   height:    12mm   }
+body.A13.landscape                               .sheet{ width:   13mm;   height:     8mm   }
+body.2A0                                         .sheet{ width: 1189mm;   height:  1681mm   }
+body.2A0.landscape                               .sheet{ width: 1682mm;   height:  1188mm   }
+body.4A0                                         .sheet{ width: 1682mm;   height:  2377mm   }
+body.4A0.landscape                               .sheet{ width: 2378mm;   height:  1681mm   }
+body.A0plus                                      .sheet{ width:  914mm;   height:  1291mm   } /* A0+ */
+body.A0plus.landscape                            .sheet{ width: 1292mm;   height:   913mm   }
+body.A1plus                                      .sheet{ width:  609mm;   height:   913mm   } /* A1+ */
+body.A1plus.landscape                            .sheet{ width:  914mm;   height:   608mm   }
+body.A3plus                                      .sheet{ width:  329mm;   height:   482mm   } /* A3+ */
+body.A3plus.landscape                            .sheet{ width:  483mm;   height:   328mm   }
+
+/** B Paper Sizes                **/
+body.B0                                          .sheet{ width: 1000mm;   height:  1413mm   }
+body.B0.landscape                                .sheet{ width: 1414mm;   height:   999mm   }
+body.B1                                          .sheet{ width:  707mm;   height:   999mm   }
+body.B1.landscape                                .sheet{ width: 1000mm;   height:   706mm   }
+body.B2                                          .sheet{ width:  500mm;   height:   706mm   }
+body.B2.landscape                                .sheet{ width:  707mm;   height:   499mm   }
+body.B3                                          .sheet{ width:  353mm;   height:   499mm   }
+body.B3.landscape                                .sheet{ width:  500mm;   height:   352mm   }
+body.B4                                          .sheet{ width:  250mm;   height:   352mm   }
+body.B4.landscape                                .sheet{ width:  353mm;   height:   249mm   }
+body.B5                                          .sheet{ width:  176mm;   height:   249mm   }
+body.B5.landscape                                .sheet{ width:  250mm;   height:   175mm   }
+body.B6                                          .sheet{ width:  125mm;   height:   175mm   }
+body.B6.landscape                                .sheet{ width:  176mm;   height:   124mm   }
+body.B7                                          .sheet{ width:   88mm;   height:   124mm   }
+body.B7.landscape                                .sheet{ width:  125mm;   height:    87mm   }
+body.B8                                          .sheet{ width:   62mm;   height:    87mm   }
+body.B8.landscape                                .sheet{ width:   88mm;   height:    61mm   }
+body.B9                                          .sheet{ width:   44mm;   height:    61mm   }
+body.B9.landscape                                .sheet{ width:   62mm;   height:    43mm   }
+body.B10                                         .sheet{ width:   31mm;   height:    43mm   }
+body.B10.landscape                               .sheet{ width:   44mm;   height:    30mm   }
+body.B11                                         .sheet{ width:   22mm;   height:    30mm   }
+body.B11.landscape                               .sheet{ width:   31mm;   height:    21mm   }
+body.B12                                         .sheet{ width:   15mm;   height:    21mm   }
+body.B12.landscape                               .sheet{ width:   22mm;   height:    14mm   }
+body.B13                                         .sheet{ width:   11mm;   height:    14mm   }
+body.B13.landscape                               .sheet{ width:   15mm;   height:    10mm   }
+body.B0plus                                      .sheet{ width: 1118mm;   height:  1579mm   } /* B0+ */
+body.B0plus.landscape                            .sheet{ width: 1580mm;   height:  1117mm   }
+body.B1plus                                      .sheet{ width:  720mm;   height:  1019mm   } /* B1+ */
+body.B1plus.landscape                            .sheet{ width: 1020mm;   height:   719mm   }
+body.B2plus                                      .sheet{ width:  520mm;   height:   719mm   } /* B2+ */
+body.B2plus.landscape                            .sheet{ width:  720mm;   height:   519mm   }
+
+/** C Envelope Sizes             **/
+body.C0                                          .sheet{ width:  917mm;   height:  1296mm   }
+body.C0.landscape                                .sheet{ width: 1297mm;   height:   916mm   }
+body.C1                                          .sheet{ width:  648mm;   height:   916mm   }
+body.C1.landscape                                .sheet{ width:  917mm;   height:   647mm   }
+body.C2                                          .sheet{ width:  458mm;   height:   647mm   }
+body.C2.landscape                                .sheet{ width:  648mm;   height:   457mm   }
+body.C3                                          .sheet{ width:  324mm;   height:   457mm   }
+body.C3.landscape                                .sheet{ width:  458mm;   height:   323mm   }
+body.C4                                          .sheet{ width:  229mm;   height:   323mm   }
+body.C4.landscape                                .sheet{ width:  324mm;   height:   228mm   }
+body.C5                                          .sheet{ width:  162mm;   height:   228mm   }
+body.C5.landscape                                .sheet{ width:  229mm;   height:   161mm   }
+body.C6                                          .sheet{ width:  114mm;   height:   161mm   }
+body.C6.landscape                                .sheet{ width:  162mm;   height:   113mm   }
+body.C7                                          .sheet{ width:   81mm;   height:   113mm   }
+body.C7.landscape                                .sheet{ width:  114mm;   height:    80mm   }
+body.C8                                          .sheet{ width:   57mm;   height:    80mm   }
+body.C8.landscape                                .sheet{ width:   81mm;   height:    56mm   }
+body.C9                                          .sheet{ width:   40mm;   height:    56mm   }
+body.C9.landscape                                .sheet{ width:   57mm;   height:    39mm   }
+body.C10                                         .sheet{ width:   28mm;   height:    39mm   }
+body.C10.landscape                               .sheet{ width:   40mm;   height:    27mm   }
+
+/** US Paper Sizes               **/
+body.US-Letter                                   .sheet{ width:  216mm;   height:   278mm   } /* Letter */
+body.US-Letter.landscape                         .sheet{ width:  279mm;   height:   215mm   }
+body.US-Legal                                    .sheet{ width:  216mm;   height:   355mm   } /* Legal */
+body.US-Legal.landscape                          .sheet{ width:  356mm;   height:   215mm   }
+body.US-Tabloid                                  .sheet{ width:  279mm;   height:   431mm   } /* Tabloid */
+body.US-Tabloid.landscape                        .sheet{ width:  432mm;   height:   278mm   }
+body.US-Ledger                                   .sheet{ width:  432mm;   height:   278mm   } /* Ledger */
+body.US-Ledger.landscape                         .sheet{ width:  279mm;   height:   431mm   }
+body.US-Junior-Legal                             .sheet{ width:  127mm;   height:   202mm   } /* Junior */
+body.US-Junior-Legal.landscape                   .sheet{ width:  203mm;   height:   126mm   }
+body.US-Half-Letter                              .sheet{ width:  140mm;   height:   215mm   } /* Half Letter */
+body.US-Half-Letter.landscape                    .sheet{ width:  216mm;   height:   139mm   }
+body.US-Government-Letter                        .sheet{ width:  203mm;   height:   266mm   } /* Government Letter */
+body.US-Government-Letter.landscape              .sheet{ width:  267mm;   height:   202mm   }
+body.US-Government-Legal                         .sheet{ width:  216mm;   height:   329mm   } /* Government Legal */
+body.US-Government-Legal.landscape               .sheet{ width:  330mm;   height:   215mm   }
+body.ANSI-A                                      .sheet{ width:  216mm;   height:   278mm   }
+body.ANSI-A.landscape                            .sheet{ width:  279mm;   height:   215mm   }
+body.ANSI-B                                      .sheet{ width:  279mm;   height:   431mm   }
+body.ANSI-B.landscape                            .sheet{ width:  432mm;   height:   278mm   }
+body.ANSI-C                                      .sheet{ width:  432mm;   height:   558mm   }
+body.ANSI-C.landscape                            .sheet{ width:  559mm;   height:   431mm   }
+body.ANSI-D                                      .sheet{ width:  559mm;   height:   863mm   }
+body.ANSI-D.landscape                            .sheet{ width:  864mm;   height:   558mm   }
+body.ANSI-E                                      .sheet{ width:  864mm;   height:  1117mm   }
+body.ANSI-E.landscape                            .sheet{ width: 1118mm;   height:   863mm   }
+body.Arch-A                                      .sheet{ width:  229mm;   height:   304mm   }
+body.Arch-A.landscape                            .sheet{ width:  305mm;   height:   228mm   }
+body.Arch-B                                      .sheet{ width:  305mm;   height:   456mm   }
+body.Arch-B.landscape                            .sheet{ width:  457mm;   height:   304mm   }
+body.Arch-C                                      .sheet{ width:  457mm;   height:   609mm   }
+body.Arch-C.landscape                            .sheet{ width:  610mm;   height:   456mm   }
+body.Arch-D                                      .sheet{ width:  610mm;   height:   913mm   }
+body.Arch-D.landscape                            .sheet{ width:  914mm;   height:   609mm   }
+body.Arch-E                                      .sheet{ width:  914mm;   height:  1218mm   }
+body.Arch-E.landscape                            .sheet{ width: 1219mm;   height:   913mm   }
+body.Arch-E1                                     .sheet{ width:  762mm;   height:  1066mm   }
+body.Arch-E1.landscape                           .sheet{ width: 1067mm;   height:   761mm   }
+body.Arch-E2                                     .sheet{ width:  660mm;   height:   964mm   }
+body.Arch-E2.landscape                           .sheet{ width:  965mm;   height:   659mm   }
+body.Arch-E3                                     .sheet{ width:  686mm;   height:   990mm   }
+body.Arch-E3.landscape                           .sheet{ width:  991mm;   height:   685mm   }
+
+/** US Envelope Sizes            **/
+body.US-Envelope-6one-quarter                    .sheet{ width:  152mm;   height:    88mm   }/* 6¼ */
+body.US-Envelope-6one-quarter.landscape          .sheet{ width:   89mm;   height:   151mm   }/* 6¼.*/
+body.US-Envelope-6three-quarter                  .sheet{ width:  165mm;   height:    91mm   }/* 6¾ */
+body.US-Envelope-6three-quarter.landscape        .sheet{ width:   92mm;   height:   164mm   }/* 6¾.*/
+body.US-Envelope-7                               .sheet{ width:  172mm;   height:    94mm   }/* 7  */
+body.US-Envelope-7.landscape                     .sheet{ width:   95mm;   height:   171mm   }/* 7.l*/
+body.US-Envelope-7three-quarter Monarch          .sheet{ width:  191mm;   height:    97mm   }/* 7¾ */
+body.US-Envelope-7three-quarter Monarch.landscape.sheet{ width:   98mm;   height:   190mm   }/* 7¾ */
+body.US-Envelope-8five-eighth                    .sheet{ width:  219mm;   height:    91mm   }/* 8⅝ */
+body.US-Envelope-8five-eighth.landscape          .sheet{ width:   92mm;   height:   218mm   }/* 8⅝.*/
+body.US-Envelope-9                               .sheet{ width:  225mm;   height:    97mm   }/* 9  */
+body.US-Envelope-9.landscape                     .sheet{ width:   98mm;   height:   224mm   }/* 9.l*/
+body.US-Envelope-10                              .sheet{ width:  241mm;   height:   103mm   }/* 10 */
+body.US-Envelope-10.landscape                    .sheet{ width:  104mm;   height:   240mm   }/* 10.*/
+body.US-Envelope-11                              .sheet{ width:  264mm;   height:   113mm   }/* 11 */
+body.US-Envelope-11.landscape                    .sheet{ width:  114mm;   height:   263mm   }/* 11.*/
+body.US-Envelope-12                              .sheet{ width:  279mm;   height:   120mm   }/* 12 */
+body.US-Envelope-12.landscape                    .sheet{ width:  121mm;   height:   278mm   }/* 12.*/
+body.US-Envelope-14                              .sheet{ width:  292mm;   height:   126mm   }/* 14 */
+body.US-Envelope-14.landscape                    .sheet{ width:  127mm;   height:   291mm   }/* 14.*/
+body.US-Envelope-16                              .sheet{ width:  305mm;   height:   151mm   }/* 16 */
+body.US-Envelope-16.landscape                    .sheet{ width:  152mm;   height:   304mm   }/* 16.*/
+body.US-Envelope-A1                              .sheet{ width:   92mm;   height:   129mm   }/* A1 */
+body.US-Envelope-A1.landscape                    .sheet{ width:  130mm;   height:    91mm   }/* A1.*/
+body.US-Envelope-A2 Lady Grey                    .sheet{ width:  146mm;   height:   110mm   }/* A2 */
+body.US-Envelope-A2 Lady Grey.landscape          .sheet{ width:  111mm;   height:   145mm   }/* A2 */
+body.US-Envelope-A4                              .sheet{ width:  159mm;   height:   107mm   }/* A4 */
+body.US-Envelope-A4.landscape                    .sheet{ width:  108mm;   height:   158mm   }/* A4.*/
+body.US-Envelope-A6 Thompson's Standard          .sheet{ width:  165mm;   height:   120mm   }/* A6 */
+body.US-Envelope-A6 Thompson's Standard.landscape.sheet{ width:  121mm;   height:   164mm   }/* A6 */
+body.US-Envelope-A7 Besselheim                   .sheet{ width:  184mm;   height:   132mm   }/* A7 */
+body.US-Envelope-A7 Besselheim.landscape         .sheet{ width:  133mm;   height:   183mm   }/* A7 */
+body.US-Envelope-A8 Carr's                       .sheet{ width:  206mm;   height:   139mm   }/* A8 */
+body.US-Envelope-A8 Carr's.landscape             .sheet{ width:  140mm;   height:   205mm   }/* A8 */
+body.US-Envelope-A9 Diplomat                     .sheet{ width:  222mm;   height:   145mm   }/* A9 */
+body.US-Envelope-A9 Diplomat.landscape           .sheet{ width:  146mm;   height:   221mm   }/* A9 */
+body.US-Envelope-A10 Willow                      .sheet{ width:  241mm;   height:   151mm   }/* A10*/
+body.US-Envelope-A10 Willow.landscape            .sheet{ width:  152mm;   height:   240mm   }/* A10*/
+body.US-Envelope-A Long                          .sheet{ width:  225mm;   height:    97mm   }/* A L*/
+body.US-Envelope-A Long.landscape                .sheet{ width:   98mm;   height:   224mm   }/* A L*/
+body.US-Envelope-1                               .sheet{ width:  229mm;   height:   151mm   }/* 1  */
+body.US-Envelope-1.landscape                     .sheet{ width:  152mm;   height:   228mm   }/* 1.l*/
+body.US-Envelope-1three-quarter                  .sheet{ width:  241mm;   height:   151mm   }/* 1¾ */
+body.US-Envelope-1three-quarter.landscape        .sheet{ width:  152mm;   height:   240mm   }/* 1¾.*/
+body.US-Envelope-3                               .sheet{ width:  254mm;   height:   177mm   }/* 3  */
+body.US-Envelope-3.landscape                     .sheet{ width:  178mm;   height:   253mm   }/* 3.l*/
+body.US-Envelope-6                               .sheet{ width:  267mm;   height:   190mm   }/* 6  */
+body.US-Envelope-6.landscape                     .sheet{ width:  191mm;   height:   266mm   }/* 6.l*/
+body.US-Envelope-8                               .sheet{ width:  286mm;   height:   209mm   }/* 8  */
+body.US-Envelope-8.landscape                     .sheet{ width:  210mm;   height:   285mm   }/* 8.l*/
+body.US-Envelope-9three-quarter                  .sheet{ width:  286mm;   height:   221mm   }/* 9¾ */
+body.US-Envelope-9three-quarter.landscape        .sheet{ width:  222mm;   height:   285mm   }/* 9¾.*/
+body.US-Envelope-10one-half                      .sheet{ width:  305mm;   height:   228mm   }/* 10½*/
+body.US-Envelope-10one-half.landscape            .sheet{ width:  229mm;   height:   304mm   }/* 10½*/
+body.US-Envelope-12one-half                      .sheet{ width:  318mm;   height:   240mm   }/* 12½*/
+body.US-Envelope-12one-half.landscape            .sheet{ width:  241mm;   height:   317mm   }/* 12½*/
+body.US-Envelope-13one-half                      .sheet{ width:  330mm;   height:   253mm   }/* 13½*/
+body.US-Envelope-13one-half.landscape            .sheet{ width:  254mm;   height:   329mm   }/* 13½*/
+body.US-Envelope-14one-half                      .sheet{ width:  368mm;   height:   291mm   }/* 14½*/
+body.US-Envelope-14one-half.landscape            .sheet{ width:  292mm;   height:   367mm   }/* 14½*/
+body.US-Envelope-15                              .sheet{ width:  381mm;   height:   253mm   }/* 15 */
+body.US-Envelope-15.landscape                    .sheet{ width:  254mm;   height:   380mm   }/* 15.*/
+body.US-Envelope-15one-half                      .sheet{ width:  394mm;   height:   304mm   }/* 15½*/
+body.US-Envelope-15one-half.landscape            .sheet{ width:  305mm;   height:   393mm   }/* 15½*/
+
+/** International Envelope Sizes **/
+body.international-envelope-DL                   .sheet{ width:  220mm;   height:   109mm   }
+body.international-envelope-DL.landscape         .sheet{ width:  110mm;   height:   219mm   }
+body.international-envelope-B4                   .sheet{ width:  353mm;   height:   249mm   }
+body.international-envelope-B4.landscape         .sheet{ width:  250mm;   height:   352mm   }
+body.international-envelope-B5                   .sheet{ width:  250mm;   height:   175mm   }
+body.international-envelope-B5.landscape         .sheet{ width:  176mm;   height:   249mm   }
+body.international-envelope-B6                   .sheet{ width:  176mm;   height:   124mm   }
+body.international-envelope-B6.landscape         .sheet{ width:  125mm;   height:   175mm   }
+body.international-envelope-C3                   .sheet{ width:  458mm;   height:   323mm   }
+body.international-envelope-C3.landscape         .sheet{ width:  324mm;   height:   457mm   }
+body.international-envelope-C4                   .sheet{ width:  324mm;   height:   228mm   }
+body.international-envelope-C4.landscape         .sheet{ width:  229mm;   height:   323mm   }
+body.international-envelope-C5                   .sheet{ width:  229mm;   height:   161mm   }
+body.international-envelope-C5.landscape         .sheet{ width:  162mm;   height:   228mm   }
+body.international-envelope-C6/C5                .sheet{ width:  229mm;   height:   113mm   }
+body.international-envelope-C6/C5.landscape      .sheet{ width:  114mm;   height:   228mm   }
+body.international-envelope-C6                   .sheet{ width:  162mm;   height:   113mm   }
+body.international-envelope-C6.landscape         .sheet{ width:  114mm;   height:   161mm   }
+body.international-envelope-C7/C6                .sheet{ width:  162mm;   height:    80mm   }
+body.international-envelope-C7/C6.landscape      .sheet{ width:   81mm;   height:   161mm   }
+body.international-envelope-C7                   .sheet{ width:  114mm;   height:    80mm   }
+body.international-envelope-C7.landscape         .sheet{ width:   81mm;   height:   113mm   }
+body.international-envelope-E4                   .sheet{ width:  400mm;   height:   279mm   }
+body.international-envelope-E4.landscape         .sheet{ width:  280mm;   height:   399mm   }
+
+/** Canadian Paper Sizes         **/
+body.P1                                          .sheet{ width:  560mm;   height:   859mm   }
+body.P1.landscape                                .sheet{ width:  860mm;   height:   559mm   }
+body.P2                                          .sheet{ width:  430mm;   height:   559mm   }
+body.P2.landscape                                .sheet{ width:  560mm;   height:   429mm   }
+body.P3                                          .sheet{ width:  280mm;   height:   429mm   }
+body.P3.landscape                                .sheet{ width:  430mm;   height:   279mm   }
+body.P4                                          .sheet{ width:  215mm;   height:   279mm   }
+body.P4.landscape                                .sheet{ width:  280mm;   height:   214mm   }
+body.P5                                          .sheet{ width:  140mm;   height:   214mm   }
+body.P5.landscape                                .sheet{ width:  215mm;   height:   139mm   }
+body.P6                                          .sheet{ width:  107mm;   height:   139mm   }
+body.P6.landscape                                .sheet{ width:  140mm;   height:   106mm   }
+
+/** Japanese Paper Sizes         **/
+body.JB0                                         .sheet{ width: 1030mm;   height:  1455mm   }
+body.JB0.landscape                               .sheet{ width: 1456mm;   height:  1029mm   }
+body.JB1                                         .sheet{ width:  728mm;   height:  1029mm   }
+body.JB1.landscape                               .sheet{ width: 1030mm;   height:   727mm   }
+body.JB2                                         .sheet{ width:  515mm;   height:   727mm   }
+body.JB2.landscape                               .sheet{ width:  728mm;   height:   514mm   }
+body.JB3                                         .sheet{ width:  364mm;   height:   514mm   }
+body.JB3.landscape                               .sheet{ width:  515mm;   height:   363mm   }
+body.JB4                                         .sheet{ width:  257mm;   height:   363mm   }
+body.JB4.landscape                               .sheet{ width:  364mm;   height:   256mm   }
+body.JB5                                         .sheet{ width:  182mm;   height:   256mm   }
+body.JB5.landscape                               .sheet{ width:  257mm;   height:   181mm   }
+body.JB6                                         .sheet{ width:  128mm;   height:   181mm   }
+body.JB6.landscape                               .sheet{ width:  182mm;   height:   127mm   }
+body.JB7                                         .sheet{ width:   91mm;   height:   127mm   }
+body.JB7.landscape                               .sheet{ width:  128mm;   height:    90mm   }
+body.JB8                                         .sheet{ width:   64mm;   height:    90mm   }
+body.JB8.landscape                               .sheet{ width:   91mm;   height:    63mm   }
+body.JB9                                         .sheet{ width:   45mm;   height:    63mm   }
+body.JB9.landscape                               .sheet{ width:   64mm;   height:    44mm   }
+body.JB10                                        .sheet{ width:   32mm;   height:    44mm   }
+body.JB10.landscape                              .sheet{ width:   45mm;   height:    31mm   }
+body.JB11                                        .sheet{ width:   22mm;   height:    31mm   }
+body.JB11.landscape                              .sheet{ width:   32mm;   height:    21mm   }
+body.JB12                                        .sheet{ width:   16mm;   height:    21mm   }
+body.JB12.landscape                              .sheet{ width:   22mm;   height:    15mm   }
+body.Shiroku ban 4                               .sheet{ width:  264mm;   height:   378mm   }
+body.Shiroku ban 4.landscape                     .sheet{ width:  379mm;   height:   263mm   }
+body.Shiroku ban 5                               .sheet{ width:  189mm;   height:   261mm   }
+body.Shiroku ban 5.landscape                     .sheet{ width:  262mm;   height:   188mm   }
+body.Shiroku ban 6                               .sheet{ width:  127mm;   height:   187mm   }
+body.Shiroku ban 6.landscape                     .sheet{ width:  188mm;   height:   126mm   }
+body.Kiku 5                                      .sheet{ width:  151mm;   height:   226mm   }
+body.Kiku 5.landscape                            .sheet{ width:  227mm;   height:   150mm   }
+body.Kiku 4                                      .sheet{ width:  227mm;   height:   305mm   }
+body.Kiku 4.landscape                            .sheet{ width:  306mm;   height:   226mm   }
+
+/** Chinese Paper Sizes          **/
+body.D0                                          .sheet{ width:  764mm;   height:  1063mm   }
+body.D0.landscape                                .sheet{ width: 1064mm;   height:   763mm   }
+body.D1                                          .sheet{ width:  532mm;   height:   759mm   }
+body.D1.landscape                                .sheet{ width:  760mm;   height:   531mm   }
+body.D2                                          .sheet{ width:  380mm;   height:   527mm   }
+body.D2.landscape                                .sheet{ width:  528mm;   height:   379mm   }
+body.D3                                          .sheet{ width:  264mm;   height:   375mm   }
+body.D3.landscape                                .sheet{ width:  376mm;   height:   263mm   }
+body.D4                                          .sheet{ width:  188mm;   height:   259mm   }
+body.D4.landscape                                .sheet{ width:  260mm;   height:   187mm   }
+body.D5                                          .sheet{ width:  130mm;   height:   183mm   }
+body.D5.landscape                                .sheet{ width:  184mm;   height:   129mm   }
+body.D6                                          .sheet{ width:   92mm;   height:   125mm   }
+body.D6.landscape                                .sheet{ width:  126mm;   height:    91mm   }
+body.RD0                                         .sheet{ width:  787mm;   height:  1091mm   }
+body.RD0.landscape                               .sheet{ width: 1092mm;   height:   786mm   }
+body.RD1                                         .sheet{ width:  546mm;   height:   786mm   }
+body.RD1.landscape                               .sheet{ width:  787mm;   height:   545mm   }
+body.RD2                                         .sheet{ width:  393mm;   height:   545mm   }
+body.RD2.landscape                               .sheet{ width:  546mm;   height:   392mm   }
+body.RD3                                         .sheet{ width:  273mm;   height:   392mm   }
+body.RD3.landscape                               .sheet{ width:  393mm;   height:   272mm   }
+body.RD4                                         .sheet{ width:  196mm;   height:   272mm   }
+body.RD4.landscape                               .sheet{ width:  273mm;   height:   195mm   }
+body.RD5                                         .sheet{ width:  136mm;   height:   195mm   }
+body.RD5.landscape                               .sheet{ width:  196mm;   height:   135mm   }
+body.RD6                                         .sheet{ width:   98mm;   height:   135mm   }
+body.RD6.landscape                               .sheet{ width:  136mm;   height:    97mm   }
+
+/** Colombian Paper Sizes        **/
+body.Carta                                       .sheet{ width:  216mm;   height:   278mm   }
+body.Carta.landscape                             .sheet{ width:  279mm;   height:   215mm   }
+body.Extra Tabloide                              .sheet{ width:  304mm;   height:   456.2mm }
+body.Extra Tabloide.landscape                    .sheet{ width:457.2mm;   height:   303mm   }
+body.Oficio                                      .sheet{ width:  216mm;   height:   329mm   }
+body.Oficio.landscape                            .sheet{ width:  330mm;   height:   215mm   }
+body.1/8 pliego                                  .sheet{ width:  250mm;   height:   349mm   }
+body.1/8 pliego.landscape                        .sheet{ width:  350mm;   height:   249mm   }
+body.1/4 pliego                                  .sheet{ width:  350mm;   height:   499mm   }
+body.1/4 pliego.landscape                        .sheet{ width:  500mm;   height:   349mm   }
+body.1/2 pliego                                  .sheet{ width:  500mm;   height:   699mm   }
+body.1/2 pliego.landscape                        .sheet{ width:  700mm;   height:   499mm   }
+body.    Pliego                                  .sheet{ width:  700mm;   height:   999mm   }
+body.    Pliego.landscape                        .sheet{ width: 1000mm;   height:   699mm   }
+
+/** Billboard Sizes              **/
+body.1 Sheet                                     .sheet{ width:  508mm;   height:   761mm   }
+body.1 Sheet.landscape                           .sheet{ width:  762mm;   height:   507mm   }
+body.2 Sheet                                     .sheet{ width:  762mm;   height:  1015mm   }
+body.2 Sheet.landscape                           .sheet{ width: 1016mm;   height:   761mm   }
+body.4 Sheet                                     .sheet{ width: 1016mm;   height:  1523mm   }
+body.4 Sheet.landscape                           .sheet{ width: 1524mm;   height:  1015mm   }
+body.6 Sheet                                     .sheet{ width: 1200mm;   height:  1799mm   }
+body.6 Sheet.landscape                           .sheet{ width: 1800mm;   height:  1199mm   }
+body.12 Sheet                                    .sheet{ width: 3048mm;   height:  1523mm   }
+body.12 Sheet.landscape                          .sheet{ width: 1524mm;   height:  3047mm   }
+body.16 Sheet                                    .sheet{ width: 2032mm;   height:  3047mm   }
+body.16 Sheet.landscape                          .sheet{ width: 3048mm;   height:  2031mm   }
+body.32 Sheet                                    .sheet{ width: 4064mm;   height:  3047mm   }
+body.32 Sheet.landscape                          .sheet{ width: 3048mm;   height:  4063mm   }
+body.48 Sheet                                    .sheet{ width: 6096mm;   height:  3047mm   }
+body.48 Sheet.landscape                          .sheet{ width: 3048mm;   height:  6095mm   }
+body.64 Sheet                                    .sheet{ width: 8128mm;   height:  3047mm   }
+body.64 Sheet.landscape                          .sheet{ width: 3048mm;   height:  8127mm   }
+body.96 Sheet                                    .sheet{ width:12192mm;   height:  3047mm   }
+body.96 Sheet.landscape                          .sheet{ width: 3048mm;   height: 12191mm   }
+
+/** Newspaper Sizes              **/
+body.Berliner                                    .sheet{ width:  315mm;   height:   469mm   }
+body.Berliner.landscape                          .sheet{ width:  470mm;   height:   314mm   }
+body.Broadsheet                                  .sheet{ width:  597mm;   height:   748mm   }
+body.Broadsheet.landscape                        .sheet{ width:  749mm;   height:   596mm   }
+body.US Broadsheet                               .sheet{ width:  381mm;   height:   577mm   }
+body.US Broadsheet.landscape                     .sheet{ width:  578mm;   height:   380mm   }
+body.British Broadsheet                          .sheet{ width:  375mm;   height:   596mm   }
+body.British Broadsheet.landscape                .sheet{ width:  597mm;   height:   374mm   }
+body.South African Broadsheet                    .sheet{ width:  410mm;   height:   577mm   }
+body.South African Broadsheet.landscape          .sheet{ width:  578mm;   height:   409mm   }
+body.Ciner                                       .sheet{ width:  350mm;   height:   499mm   }
+body.Ciner.landscape                             .sheet{ width:  500mm;   height:   349mm   }
+body.Compact                                     .sheet{ width:  280mm;   height:   429mm   }
+body.Compact.landscape                           .sheet{ width:  430mm;   height:   279mm   }
+body.Nordisch                                    .sheet{ width:  400mm;   height:   569mm   }
+body.Nordisch.landscape                          .sheet{ width:  570mm;   height:   399mm   }
+body.Rhenish                                     .sheet{ width:  350mm;   height:   519mm   }
+body.Rhenish.landscape                           .sheet{ width:  520mm;   height:   349mm   }
+body.Swiss                                       .sheet{ width:  320mm;   height:   474mm   }
+body.Swiss.landscape                             .sheet{ width:  475mm;   height:   319mm   }
+body.Tabloid                                     .sheet{ width:  280mm;   height:   429mm   }
+body.Tabloid.landscape                           .sheet{ width:  430mm;   height:   279mm   }
+body.Canadian Tabloid                            .sheet{ width:  260mm;   height:   367mm   }
+body.Canadian Tabloid.landscape                  .sheet{ width:  368mm;   height:   259mm   }
+body.Norwegian Tabloid                           .sheet{ width:  280mm;   height:   399mm   }
+body.Norwegian Tabloid.landscape                 .sheet{ width:  400mm;   height:   279mm   }
+body.New York Times                              .sheet{ width:  305mm;   height:   558mm   }
+body.New York Times.landscape                    .sheet{ width:  559mm;   height:   304mm   }
+body.Wall Street Journal                         .sheet{ width:  305mm;   height:   577mm   }
+body.Wall Street Journal.landscape               .sheet{ width:  578mm;   height:   304mm   }
+
+/** Business Card Sizes          **/
+body.ISO 216                                     .sheet{ width:   74mm;   height:    51mm   }
+body.ISO 216.landscape                           .sheet{ width:   52mm;   height:    73mm   }
+body.US/Canada                                   .sheet{ width:   88.9mm; height:  49.8mm   }
+body.US/Canada.landscape                         .sheet{ width:   50.8mm; height:  87.9mm   }
+body.European                                    .sheet{ width:   85mm;   height:    54mm   }
+body.European.landscape                          .sheet{ width:   55mm;   height:    84mm   }
+body.Scandinavia                                 .sheet{ width:   90mm;   height:    54mm   }
+body.Scandinavia.landscape                       .sheet{ width:   55mm;   height:    89mm   }
+body.China                                       .sheet{ width:   90mm;   height:    53mm   }
+body.China.landscape                             .sheet{ width:   54mm;   height:    89mm   }
+body.Japan                                       .sheet{ width:   91mm;   height:    54mm   }
+body.Japan.landscape                             .sheet{ width:   55mm;   height:    90mm   }
+body.Iran                                        .sheet{ width:   85mm;   height:    47mm   }
+body.Iran.landscape                              .sheet{ width:   48mm;   height:    84mm   }
+body.ISO 7810 ID-1                               .sheet{ width: 85.6mm;   height:    53mm   }
+body.ISO 7810 ID-1.landscape                     .sheet{ width:   54mm;   height:    84.6mm }
+
+/** Books Sizes                  **/
+body.ISO 216                                     .sheet{ width:   74mm;   height:    51mm   }
+body.ISO 216.landscape                           .sheet{ width:   52mm;   height:    73mm   }
+body.US/Canada                                   .sheet{ width:   88.9mm; height:    49.8mm }
+body.US/Canada.landscape                         .sheet{ width:   50.8mm; height:    87.9mm }
+body.European                                    .sheet{ width:   85mm;   height:    54mm   }
+body.European.landscape                          .sheet{ width:   55mm;   height:    84mm   }
+body.Scandinavia                                 .sheet{ width:   90mm;   height:    54mm   }
+body.Scandinavia.landscape                       .sheet{ width:   55mm;   height:    89mm   }
+body.China                                       .sheet{ width:   90mm;   height:    53mm   }
+body.China.landscape                             .sheet{ width:   54mm;   height:    89mm   }
+body.Japan                                       .sheet{ width:   91mm;   height:    54mm   }
+body.Japan.landscape                             .sheet{ width:   55mm;   height:    90mm   }
+body.Iran                                        .sheet{ width:   85mm;   height:    47mm   }
+body.Iran.landscape                              .sheet{ width:   48mm;   height:    84mm   }
+body.ISO 7810 ID-1                               .sheet{ width:   85.6mm; height:    53mm   }
+body.ISO 7810 ID-1.landscape                     .sheet{ width:   54mm;   height:    84.6mm }
+
+/** Imperial Sizes               **/
+body.Antiquarian                                 .sheet{ width:  787mm;   height:  1345mm   }
+body.Antiquarian.landscape                       .sheet{ width: 1346mm;   height:   786mm   }
+body.Atlas                                       .sheet{ width:  660mm;   height:   863mm   }
+body.Atlas.landscape                             .sheet{ width:  864mm;   height:   659mm   }
+body.Brief                                       .sheet{ width:  343mm;   height:   405mm   }
+body.Brief.landscape                             .sheet{ width:  406mm;   height:   342mm   }
+body.Broadsheet                                  .sheet{ width:  457mm;   height:   609mm   }
+body.Broadsheet.landscape                        .sheet{ width:  610mm;   height:   456mm   }
+body.Cartridge                                   .sheet{ width:  533mm;   height:   659mm   }
+body.Cartridge.landscape                         .sheet{ width:  660mm;   height:   532mm   }
+body.Columbier                                   .sheet{ width:  597mm;   height:   875mm   }
+body.Columbier.landscape                         .sheet{ width:  876mm;   height:   596mm   }
+body.Copy Draught                                .sheet{ width:  406mm;   height:   507mm   }
+body.Copy Draught.landscape                      .sheet{ width:  508mm;   height:   405mm   }
+body.Crown                                       .sheet{ width:  381mm;   height:   507mm   }
+body.Crown.landscape                             .sheet{ width:  508mm;   height:   380mm   }
+body.Demy                                        .sheet{ width:  445mm;   height:   571mm   }
+body.Demy.landscape                              .sheet{ width:  572mm;   height:   444mm   }
+body.Double Demy                                 .sheet{ width:  572mm;   height:   901mm   }
+body.Double Demy.landscape                       .sheet{ width:  902mm;   height:   571mm   }
+body.Quad Demy                                   .sheet{ width:  889mm;   height:  1142mm   }
+body.Quad Demy.landscape                         .sheet{ width: 1143mm;   height:   888mm   }
+body.Elephant                                    .sheet{ width:  584mm;   height:   710mm   }
+body.Elephant.landscape                          .sheet{ width:  711mm;   height:   583mm   }
+body.Double Elephant                             .sheet{ width:  678mm;   height:  1015mm   }
+body.Double Elephant.landscape                   .sheet{ width: 1016mm;   height:   677mm   }
+body.Emperor                                     .sheet{ width: 1219mm;   height:  1828mm   }
+body.Emperor.landscape                           .sheet{ width: 1829mm;   height:  1218mm   }
+body.Foolscap                                    .sheet{ width:  343mm;   height:   431mm   }
+body.Foolscap.landscape                          .sheet{ width:  432mm;   height:   342mm   }
+body.Small Foolscap                              .sheet{ width:  337mm;   height:   418mm   }
+body.Small Foolscap.landscape                    .sheet{ width:  419mm;   height:   336mm   }
+body.Grand Eagle                                 .sheet{ width:  730mm;   height:  1066mm   }
+body.Grand Eagle.landscape                       .sheet{ width: 1067mm;   height:   729mm   }
+body.Imperial                                    .sheet{ width:  559mm;   height:   761mm   }
+body.Imperial.landscape                          .sheet{ width:  762mm;   height:   558mm   }
+body.Medium                                      .sheet{ width:  470mm;   height:   583mm   }
+body.Medium.landscape                            .sheet{ width:  584mm;   height:   469mm   }
+body.Monarch                                     .sheet{ width:  184mm;   height:   266mm   }
+body.Monarch.landscape                           .sheet{ width:  267mm;   height:   183mm   }
+body.Post                                        .sheet{ width:  394mm;   height:   488mm   }
+body.Post.landscape                              .sheet{ width:  489mm;   height:   393mm   }
+body.Sheet, Half Post                            .sheet{ width:  495mm;   height:   596mm   }
+body.Sheet, Half Post.landscape                  .sheet{ width:  597mm;   height:   494mm   }
+body.Pinched Post                                .sheet{ width:  375mm;   height:   469mm   }
+body.Pinched Post.landscape                      .sheet{ width:  470mm;   height:   374mm   }
+body.Large Post                                  .sheet{ width:  394mm;   height:   507mm   }
+body.Large Post.landscape                        .sheet{ width:  508mm;   height:   393mm   }
+body.Double Large Post                           .sheet{ width:  533mm;   height:   837mm   }
+body.Double Large Post.landscape                 .sheet{ width:  838mm;   height:   532mm   }
+body.Double Post                                 .sheet{ width:  483mm;   height:   761mm   }
+body.Double Post.landscape                       .sheet{ width:  762mm;   height:   482mm   }
+body.Pott                                        .sheet{ width:  318mm;   height:   380mm   }
+body.Pott.landscape                              .sheet{ width:  381mm;   height:   317mm   }
+body.Princess                                    .sheet{ width:  546mm;   height:   710mm   }
+body.Princess.landscape                          .sheet{ width:  711mm;   height:   545mm   }
+body.Quarto                                      .sheet{ width:  229mm;   height:   278mm   }
+body.Quarto.landscape                            .sheet{ width:  279mm;   height:   228mm   }
+body.Royal                                       .sheet{ width:  508mm;   height:   634mm   }
+body.Royal.landscape                             .sheet{ width:  635mm;   height:   507mm   }
+body.Super Royal                                 .sheet{ width:  483mm;   height:   685mm   }
+body.Super Royal.landscape                       .sheet{ width:  686mm;   height:   482mm   }
+
+/** Transitional Sizes           **/
+body.PA0                                         .sheet{ width:  840mm;   height:  1119mm   }
+body.PA0.landscape                               .sheet{ width: 1120mm;   height:   839mm   }
+body.PA1                                         .sheet{ width:  560mm;   height:   839mm   }
+body.PA1.landscape                               .sheet{ width:  840mm;   height:   559mm   }
+body.PA2                                         .sheet{ width:  420mm;   height:   559mm   }
+body.PA2.landscape                               .sheet{ width:  560mm;   height:   419mm   }
+body.PA3                                         .sheet{ width:  280mm;   height:   419mm   }
+body.PA3.landscape                               .sheet{ width:  420mm;   height:   279mm   }
+body.PA4                                         .sheet{ width:  210mm;   height:   279mm   }
+body.PA4.landscape                               .sheet{ width:  280mm;   height:   209mm   }
+body.PA5                                         .sheet{ width:  140mm;   height:   209mm   }
+body.PA5.landscape                               .sheet{ width:  210mm;   height:   139mm   }
+body.PA6                                         .sheet{ width:  105mm;   height:   139mm   }
+body.PA6.landscape                               .sheet{ width:  140mm;   height:   104mm   }
+body.PA7                                         .sheet{ width:   70mm;   height:   104mm   }
+body.PA7.landscape                               .sheet{ width:  105mm;   height:    69mm   }
+body.PA8                                         .sheet{ width:   52mm;   height:    69mm   }
+body.PA8.landscape                               .sheet{ width:   70mm;   height:    51mm   }
+body.PA9                                         .sheet{ width:   35mm;   height:    51mm   }
+body.PA9.landscape                               .sheet{ width:   52mm;   height:    34mm   }
+body.PA10                                        .sheet{ width:   26mm;   height:    34mm   }
+body.PA10.landscape                              .sheet{ width:   35mm;   height:    25mm   }
+body.F0                                          .sheet{ width:  841mm;   height:  1320mm   }
+body.F0.landscape                                .sheet{ width: 1321mm;   height:   840mm   }
+body.F1                                          .sheet{ width:  660mm;   height:   840mm   }
+body.F1.landscape                                .sheet{ width:  841mm;   height:   659mm   }
+body.F2                                          .sheet{ width:  420mm;   height:   659mm   }
+body.F2.landscape                                .sheet{ width:  660mm;   height:   419mm   }
+body.F3                                          .sheet{ width:  330mm;   height:   419mm   }
+body.F3.landscape                                .sheet{ width:  420mm;   height:   329mm   }
+body.F4                                          .sheet{ width:  210mm;   height:   329mm   }
+body.F4.landscape                                .sheet{ width:  330mm;   height:   209mm   }
+body.F5                                          .sheet{ width:  165mm;   height:   209mm   }
+body.F5.landscape                                .sheet{ width:  210mm;   height:   164mm   }
+body.F6                                          .sheet{ width:  105mm;   height:   164mm   }
+body.F6.landscape                                .sheet{ width:  165mm;   height:   104mm   }
+body.F7                                          .sheet{ width:   82mm;   height:   104mm   }
+body.F7.landscape                                .sheet{ width:  105mm;   height:    81mm   }
+body.F8                                          .sheet{ width:   52mm;   height:    81mm   }
+body.F8.landscape                                .sheet{ width:   82mm;   height:    51mm   }
+body.F9                                          .sheet{ width:   41mm;   height:    51mm   }
+body.F9.landscape                                .sheet{ width:   52mm;   height:    40mm   }
+body.F10                                         .sheet{ width:   26mm;   height:    40mm   }
+body.F10.landscape                               .sheet{ width:   41mm;   height:    25mm   }
+
+/** Traditional British Sizes    **/
+body.British-Dukes                               .sheet{ width:  140mm;   height:   177mm   } /* Dukes              */
+body.British-Dukes.landscape                     .sheet{ width:  178mm;   height:   139mm   } /* Dukes.landscape    */
+body.British-Foolscap                            .sheet{ width:  203mm;   height:   329mm   } /* Foolscap           */
+body.British-Foolscap.landscape                  .sheet{ width:  330mm;   height:   202mm   } /* Foolscap.landscape */
+body.British-Imperial                            .sheet{ width:  178mm;   height:   228mm   } /* Imperial           */
+body.British-Imperial.landscape                  .sheet{ width:  229mm;   height:   177mm   } /* Imperial.landscape */
+body.British-Kings                               .sheet{ width:  165mm;   height:   202mm   } /* Kings              */
+body.British-Kings.landscape                     .sheet{ width:  203mm;   height:   164mm   } /* Kings.landscape    */
+body.British-Quarto                              .sheet{ width:  203mm;   height:   253mm   } /* Quarto             */
+body.British-Quarto.landscape                    .sheet{ width:  254mm;   height:   202mm   } /* Quarto.landscape   */
+
+/** RA And SRA Sizes             **/
+body.RA0                                         .sheet{ width:  860mm;   height:  1219mm   }
+body.RA0.landscape                               .sheet{ width: 1220mm;   height:   859mm   }
+body.RA1                                         .sheet{ width:  610mm;   height:   859mm   }
+body.RA1.landscape                               .sheet{ width:  860mm;   height:   609mm   }
+body.RA2                                         .sheet{ width:  430mm;   height:   609mm   }
+body.RA2.landscape                               .sheet{ width:  610mm;   height:   429mm   }
+body.RA3                                         .sheet{ width:  305mm;   height:   429mm   }
+body.RA3.landscape                               .sheet{ width:  430mm;   height:   304mm   }
+body.RA4                                         .sheet{ width:  215mm;   height:   304mm   }
+body.RA4.landscape                               .sheet{ width:  305mm;   height:   214mm   }
+body.SRA0                                        .sheet{ width:  900mm;   height:  1279mm   }
+body.SRA0.landscape                              .sheet{ width: 1280mm;   height:   899mm   }
+body.SRA1                                        .sheet{ width:  640mm;   height:   899mm   }
+body.SRA1.landscape                              .sheet{ width:  900mm;   height:   639mm   }
+body.SRA2                                        .sheet{ width:  450mm;   height:   639mm   }
+body.SRA2.landscape                              .sheet{ width:  640mm;   height:   449mm   }
+body.SRA3                                        .sheet{ width:  320mm;   height:   449mm   }
+body.SRA3.landscape                              .sheet{ width:  450mm;   height:   319mm   }
+body.SRA4                                        .sheet{ width:  225mm;   height:   319mm   }
+body.SRA4.landscape                              .sheet{ width:  320mm;   height:   224mm   }
+body.SRA1plus                                    .sheet{ width:  660mm;   height:   919mm   } /* SRA1+ */
+body.SRA1plus.landscape                          .sheet{ width:  920mm;   height:   659mm   }
+body.SRA2plus                                    .sheet{ width:  480mm;   height:   649mm   } /* SRA2+ */
+body.SRA2plus.landscape                          .sheet{ width:  650mm;   height:   479mm   }
+body.SRA3plus                                    .sheet{ width:  320mm;   height:   459mm   } /* SRA3+ */
+body.SRA3plus.landscape                          .sheet{ width:  460mm;   height:   319mm   }
+body.SRA3plusplus                                .sheet{ width:  320mm;   height:   463mm   } /* SRA3++ */
+body.SRA3plusplus.landscape                      .sheet{ width:  464mm;   height:   319mm   }
+body.A0U                                         .sheet{ width:  880mm;   height:  1229mm   }
+body.A0U.landscape                               .sheet{ width: 1230mm;   height:   879mm   }
+body.A1U                                         .sheet{ width:  625mm;   height:   879mm   }
+body.A1U.landscape                               .sheet{ width:  880mm;   height:   624mm   }
+body.A2U                                         .sheet{ width:  450mm;   height:   624mm   }
+body.A2U.landscape                               .sheet{ width:  625mm;   height:   449mm   }
+body.A3U                                         .sheet{ width:  330mm;   height:   449mm   }
+body.A3U.landscape                               .sheet{ width:  450mm;   height:   329mm   }
+body.A4U                                         .sheet{ width:  240mm;   height:   329mm   }
+body.A4U.landscape                               .sheet{ width:  330mm;   height:   239mm   }
